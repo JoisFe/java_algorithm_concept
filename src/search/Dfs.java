@@ -10,17 +10,14 @@ import java.util.Scanner;
  */
 public class Dfs {
 
-    public static int nodeSize;
-    public static int edgeSize;
-
-    public static List<ArrayList<Integer>> graph = new ArrayList<>(nodeSize + 1);
-    public static List<Boolean> visited = new ArrayList<>(nodeSize + 1);
+    protected static final List<ArrayList<Integer>> graph = new ArrayList<>( );
+    protected static final List<Boolean> visited = new ArrayList<>();
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        nodeSize = scanner.nextInt();
-        edgeSize = scanner.nextInt();
+        int nodeSize = scanner.nextInt();
+        int edgeSize = scanner.nextInt();
 
 
         for (int i = 0; i <= nodeSize; ++i) {
@@ -47,10 +44,9 @@ public class Dfs {
         for (int i = 0; i < graph.get(start).size(); ++i) {
             int nextNode = graph.get(start).get(i);
 
-            if (!visited.get(nextNode)) {
+            if (Boolean.FALSE.equals(visited.get(nextNode))) {
                 dfs(nextNode);
             }
         }
     }
-
 }
