@@ -62,9 +62,9 @@ public class UnionFind {
             return a;
         }
 
-        int parent = findParent(UnionFind.parent.get(a));
-        UnionFind.parent.set(a, parent);
+        int parentNum = findParent(UnionFind.parent.get(a));
+        UnionFind.parent.set(a, parentNum);
 
-        return parent;
+        return parentNum;
     }
 }
