@@ -9,3 +9,7 @@ J
 src/shortestpath/Prac.java,3/4/34e947818c5a04ee5cfe4f1ccc1e9aa3f82e8d44
 S
 #src/shortestpath/FloydWarshall.java,5/6/5660bf48812e0006bafdad6ee6a44d89e052f83c
+M
+src/othergraph/UnionFind.java,7/b/7b62a8a1b7006cab3a9276d9cb340fde448b5c90
+G
+src/sort/quickSort.java,3/4/345d3b23b79d8bcbb6e6ece0f9b4a2837798e9cb
