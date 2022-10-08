@@ -15,3 +15,5 @@ G
 src/sort/quickSort.java,3/4/345d3b23b79d8bcbb6e6ece0f9b4a2837798e9cb
 B
 src/sort/Prac.java,a/2/a21584711a678792aabb77b65b30760356d5da19
+K
+src/sort/InsertionSort.java,d/5/d5cc399d32304f5b96d7ad48dfe5a26ac3f97592
