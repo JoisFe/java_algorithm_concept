@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author : 조재철
  * @since 1.0
  */
-public class quickSort {
+public class QuickSort {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
