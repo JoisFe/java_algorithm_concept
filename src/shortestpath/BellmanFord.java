@@ -47,6 +47,8 @@ public class BellmanFord {
             if (dist[edge.getStartNode()] != INF
                 && dist[edge.getEndNode()] > dist[edge.getStartNode()] + edge.getDistance()) {
                 negativeCycle = true;
+
+                break;
             }
         }
 
