@@ -5,10 +5,6 @@ D
 src/search/Prac.java,1/d/1d5c41f1171d9d2889713395180e40f17d6f4e1d
 C
 src/search/Bfs.java,a/7/a75a9918842aafd65ce47a01135b895685231b37
-J
-src/shortestpath/Prac.java,3/4/34e947818c5a04ee5cfe4f1ccc1e9aa3f82e8d44
-S
-#src/shortestpath/FloydWarshall.java,5/6/5660bf48812e0006bafdad6ee6a44d89e052f83c
 M
 src/othergraph/UnionFind.java,7/b/7b62a8a1b7006cab3a9276d9cb340fde448b5c90
 G
@@ -19,3 +15,7 @@ K
 src/sort/InsertionSort.java,d/5/d5cc399d32304f5b96d7ad48dfe5a26ac3f97592
 H
 src/sort/BubbleSort.java,c/4/c4ca745fbe1b508a29753bfe745877aa88157193
+K
+src/sort/SelectionSort.java,5/0/5009296a7145c0c4a4443502f4807d945ac6be0b
+C
+src/search/Dfs.java,d/2/d2ce15aa53bcefe2818c08f1044b64975d0453c6
